@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Macedo's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/responsive.css" />
+    
+</head>
+<body>
+    <div class="container">
+        <!-- The Modal -->
+        <div id="logo_modal" class="modal">
+            <span class="close">×</span>
+            <img class="modal-content" id="img01" src="/img/frontend_img.png" alt="Modal Image">
+            <div id="caption"></div>
+        </div>
+
+        <header id="header" >
+            <img id="logo" class="img_click" src="./img/perfil_eduardo.png" alt="José Eduardo Paes de Macedo">
+            <div id="titles_page" >
+                <h1 id="title_page" >Macedo's Portfolio</h1>
+                <h2 id="sub_title_page" >Full Stack Developer</h2>
+            </div>
+        </header>
+
+        <nav class=".menu" >
+            <ul>
+                <li><a href="https://www.linkedin.com/in/josé-eduardo-paes-de-macedo-80853186" target="_blank" >LinkedIn</a> </li>
+                <li><a href="https://www.facebook.com/eduard0paes" target="_blank" >Facebook</a></li>
+                <li><a href="https://github.com/jeduardopaes" target="_blank" >Github</a></li>
+            </ul>
+        </nav>
+        <div class="row" >
+            <section id="frontend_section" class="column" >
+                <img id="forntend_img" class="imgs" src="./img/frontend_img.png" alt="frontend_img">
+                <h2 id="forntend_title">Frontend</h2>
+                <p id="frontend_text" class="text" >
+                    I use HTML, CSS, Javascript to build extraordinary pages. I can also use frameworks as Bootstrap, 
+                    Materialize, Angular and others. My primary goal as a frontend developer is to make the user experience 
+                    more pleasent, fluid and intiutive without losing the main concept of the desing.
+                </p>
+            </section>
+
+            <section id="backend_section" class="column" >
+                <img id="backend_img" class="imgs" src="./img/Backend_img.png" alt="Backend_img">    
+                <h2 id="backend_title" >Backend</h2>
+                <p id="backend_text" class="text" >
+                    I use Javascript (NodeJS), Java, Python and other laguages to build the backend for web sites and/or API's.
+                    These languages allows me to choose what is the core need of the project, been it security, scalability, 
+                    response time or else. My primary goal in the backend developer is making sure that the service will work
+                    properly, making sure the user knows what is happening and having the server send a propper response
+                    for the user request.
+                </p>
+            </section>
+        </div>
+        <div class="row">
+            <section id="projects_section" class="column" >
+                    
+                <h2 id="projects_section_title">Projects</h2>
+                <div id="project_item_column">
+                    <article class="project_item">
+                        <h3 class="projects_titles" >Alura Project</h3>
+                        <img id="alura_project_img" class="img_click imgs" src="./img/alura_project.PNG" alt="Alura Project">
+                        <p id="alura_text" class="text" >
+                            I did a course in Alura where we created a page to show financial negotiations. Using javascript, 
+                            html and basic css I was able to do what was requested by the course.
+                        </p>
+                    </article>
+                    <article class="project_item">
+                        <h3 class="projects_titles" >Tic Tac Toe Project</h3>
+                        <img id="tictactoe_project_img" class="img_click imgs" src="./img/tictactoe_project.PNG" alt="Tic Tac Toe Project">
+                        <p id="tictactoe_text" class="text" >
+                            A simple Tic Tac Toe game created with javascript, html and css.
+                            I did a course in Alura where we created a page to show financial negotiations. Using javascript, 
+                            html and basic css I was able to do what was requested by the course.
+                        </p>
+                    </article>
+                </div>
+                
+            </section>
+        </div>
+
+        <footer>Powered by José Eduardo Paes</footer>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

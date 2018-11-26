@@ -1,0 +1,116 @@
+@media screen and (min-width: 767px){
+    /*
+        =====  Header Part  =====
+    */
+
+    #header{
+        padding-top: 5px;
+        width: 100%;
+        align-self: auto;
+        padding-left: 2%;
+        padding-right: 2%;
+        text-align: left;
+    }
+    
+    #logo{
+        width: 200px;
+        border-radius: 50%;
+    }
+    
+    #titles_page{
+        padding-top: 50px;
+        float: right;
+        text-align: right;
+    }
+    /*
+    =====  Menu Part  =====
+    */
+
+    ul {
+        text-align: left;
+        padding-left: 5px;
+    }
+
+
+}
+
+@media screen and (min-width: 800px){
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        background-color: black;
+    }
+    /*
+    =====  Section Part  =====
+    */
+
+    section{
+        width: 40%;
+        margin: 5px auto;
+        text-align: center;
+        background-color: aliceblue;
+        color: black;
+        padding: 15px;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    #forntend_title, #backend_title{
+        text-align: left;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #project_item_column{
+        width: 100%;
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    .project_item{
+        width: 45%;
+        margin: 10px auto;
+  
+    }
+
+    .projects_titles{
+        font-size: 2em;
+    }
+
+    .imgs{
+        width: 75%;
+    }
+
+    .text{
+        text-indent: 1.5em;
+        text-align: left;
+        font-size: 18px;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Container for flexboxes */
+    .row {
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    /* Create three equal columns that sits next to each other */
+    .column {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        margin: 5px 5px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 1223px){
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        background-color: black;
+        max-width: 1223px;
+    }
+}
